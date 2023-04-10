@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #121214;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+main {
+    display:flex ;
+    flex-direction: column;
+    margin: auto;
+    justify-content:center ;
+}
+
+
+p {
+    color:  #9c9c9c;
+    display:flex ;
+    justify-content: center;
+}
+
+input {
+    color:  #9c9c9c;
+}
+
+.todos_os_perfis {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.imagem-perfil {
+    border-radius: 8px;
+}
+
+
+img:hover {
+    border: white solid 2px;
+}
+
+.imagem-perfil_adicionar {
+    position:absolute;
+    left:1100px;
+	top:50%;
+	margin-top:-40px;
+}
+
+.perfil {
+    margin: 30px;
+    color: #9c9c9c; 
+}
+
+perfil:hover {
+    border-radius: 8px;
+    color: white;
+}
+
+perfil:hover img {
+    transition-duration: 0.5s;
+    transform: scale(1.2);
+    border: white solid 3px;
+    border-radius: 8px;
+}
+
+.descricao-perfil_adicionar {
+    display: flex;
+    justify-content: center;
+    margin-top: 177px;
+}
+
+.descricao-perfil {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.input-botao {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.botao {
+    width: 210px;
+    background: #121214;
+    border: solid 1.5px;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+}
+
+.botao:hover {
+    transition-duration: 0.5;
+    background: white;
+    color: black;
+}
